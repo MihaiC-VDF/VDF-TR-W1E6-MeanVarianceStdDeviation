@@ -45,7 +45,8 @@ public class Main {
        for (int i=0; i< inputData.length; i++) {
            varianceSum += ((mean-inputData[i])*(mean-inputData[i]));
        }
-
+//test comment
+        System.out.println("Test");
         return varianceSum/ (inputData.length-1);
 
     }
